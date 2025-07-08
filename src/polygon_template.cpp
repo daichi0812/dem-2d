@@ -6,7 +6,7 @@
 #define EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT
 #define EIGEN_DONT_VECTORIZE
 
-#include "Polygon_Template.h"
+#include "polygon_template.h"
 #include "signed_distance.h"
 
 PolygonTemplate2D::PolygonTemplate2D( const std::string& in_name, const double& in_density, const Eigen::Matrix2Xd& in_vertices, const double& in_size_std )

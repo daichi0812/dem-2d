@@ -1,9 +1,9 @@
 #define EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT
 #define EIGEN_DONT_VECTORIZE
 
-#include "collisiondetection2d.h"
-#include "RigidBody2DData.h"
-#include "signeddistance2d.h"
+#include "collision_detection.h"
+#include "rigid_body_data.h"
+#include "signed_distance.h"
 #include "constants.h"
 #include <iostream>
 #include <Eigen/Core>
