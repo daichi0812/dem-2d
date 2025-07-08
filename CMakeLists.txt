@@ -27,6 +27,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 # Link all necessary libraries
 target_link_libraries(${PROJECT_NAME} PUBLIC
         ${HDF5_LIBRARIES}
-        ${OPENGL_LIBRARIES}
-        ${GLUT_LIBRARY}
+        OpenGL::GL
+        GLUT::GLUT
 )
