@@ -7,8 +7,8 @@
 #define EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT
 #define EIGEN_DONT_VECTORIZE
 
-#include "CircleTemplate2D.h"
-#include "signeddistance2d.h"
+#include "circle_template.h"
+#include "signed_distance.h"
 
 CircleTemplate2D::CircleTemplate2D( const std::string& in_name, const double& in_density, const double& in_radius, const double& in_radius_std )
 : m_Name( in_name )

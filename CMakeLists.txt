@@ -3,7 +3,8 @@ project(dem_2d)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(dem_2d src/main.cpp)
+file(GLOB_RECURSE SOURCES "src/*.cpp")
+add_executable(dem_2d ${SOURCES})
 
 # Eigen3 is header only and required for callers
 find_package(Eigen3 REQUIRED)
