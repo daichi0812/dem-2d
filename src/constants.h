@@ -2,6 +2,7 @@
 #define constants_h
 
 #include <Eigen/Core>
+#include <Eigen/LU>
 
 enum RigidBodyType2D
 {
